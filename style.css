@@ -1,0 +1,206 @@
+/* nav{
+    background-color: black;
+    color: white;
+} */
+.container{
+    background-image: url(images/Boy\ fight.jpg);
+    background-repeat: no-repeat;
+     background-size: contain;
+     background-color: black;
+     
+     background-position: 605px;
+     height: 600px;
+     /* width: 1000px; */
+    color: white;
+ }
+ .center{
+    display: flex;
+    /* align-items: center; */
+    margin-left: 300px;
+    margin-top: 100px;
+    color: white;
+    background-color: white;
+    width: 600px;
+    height: 100px;
+ }
+ .images{
+     display: flex;
+    color: black;
+    
+    text-align: center;
+ }
+ .texts{
+     display: flex;
+    color: black;
+    /* align-content: space-between; */
+    text-align: center;
+    /* text-decoration: none; */
+ }
+   .texts h3{
+    margin: 45px;
+
+   }
+   .texts h3 a{
+    text-decoration: none;
+   }
+ span{
+     color: red;
+     cursor: pointer;
+ }
+ 
+ .main{
+     margin: 75px;
+     display: flex;
+ }
+ .logo2 h1{
+     color: white;
+ }
+ h1{
+     padding: 75px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 35px;
+     /* animation: plane 4s infinite ; */
+ }
+ 
+ .right{
+     text-align: right;
+     align-content: space-between;
+     display: flex;
+     /* border: 3px solid red; */
+     border-left: 10px solid red;
+     border-radius: 20px;
+ }
+ .footer{
+     color: white;
+     background-color: black;
+     font-size: 45px;
+     display: flex;
+     /* align-content: space-between; */
+ }
+ .right2{
+     margin: 45px;
+ }
+
+ button .right2{
+    border-radius: 50px;
+ }
+  img{
+     height: 45px;
+     width: 45px;
+     background: white;
+     align-content: space-between;
+     margin: 45px;
+     border-radius: 30px;
+ }
+ .footer2 p{
+     font-size: 20px;
+     color:white;
+     padding-left: 400px;
+ }
+ .footer2{
+     background-color: black;
+     display: flex;
+ }
+ ul{
+     display: flex;
+ }
+ ul li{
+     display: flex;
+     margin: 45px;
+ 
+ }
+ nav{
+     display: flex;
+
+ 
+ }
+ nav :hover{
+    color: white;
+ }
+ ul li a{
+     color: white;
+     text-decoration: none;
+     list-style: none;
+     align-content: space-between;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ button{
+     background-color: red;
+     height: 40px;
+     width: 80px;
+     border-radius: 10px;
+     margin-bottom: 20px;
+ }
+ button a{
+     text-decoration: none;
+     list-style: none;
+     color: white;
+     /* border-radius: 50px; */
+ }
+
+ form{
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    /* height: 50px; */
+    background-color: black;
+    /* width: 50px; */
+ }
+.header{
+    padding: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 46px;
+    color: white;
+    animation: plane 4s infinite ;
+}
+
+.paragraph{
+    padding: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 46px; */
+    color: white;
+    /* animation: plane 4s infinite ; */
+}
+ .head{
+    padding: 75px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 46px;
+     color: white;
+     animation: plane 4s infinite ;
+ }
+
+ @keyframes plane {
+    0%{
+         color: red;
+         transform: translate(-300px) rotateZ(3deg);
+         font-family: 'Times New Roman', Times, serif;
+         font-size: 60px;
+         background-color: green;
+     }
+     50%{
+         color: green;
+         transform: translateY(-20px) rotateZ(1deg);
+         font-family: 'Courier New', Courier, monospace;
+         font-size: 70px;
+         background-color: red;
+     }
+     80%{
+         color: blue;
+         transform: translateX(-10px) rotateZ(0deg);
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         font-size: 80px;
+         background-color: yellow;
+
+     }
+     100%{
+         color: goldenrod;
+         transform: translate3d(200px) rotateZ(5deg);
+         font-family: 'Times New Roman', Times, serif;
+         font-size: 90px;
+         background-color: pink;
+     }
+     
+    }
+
+    
